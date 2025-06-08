@@ -28,22 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.Label label14;
+            System.Windows.Forms.Label lblPassword;
+            System.Windows.Forms.Label lblEmail;
+            System.Windows.Forms.Label lblName;
+            System.Windows.Forms.Label lblJob;
+            System.Windows.Forms.Label authorLabel;
+            System.Windows.Forms.Label publisherLabel;
             this.label12 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -56,39 +50,37 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnadd = new System.Windows.Forms.Button();
+            this.database1DataSet1 = new Smile___Sunshine_Toy_Co__Ltd_CCMS.Database1DataSet1();
+            this.productBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.productTableAdapter = new Smile___Sunshine_Toy_Co__Ltd_CCMS.Database1DataSet1TableAdapters.ProductTableAdapter();
+            this.productIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.productNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.columnDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.departmnetIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.productCostDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.productDescriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.bookIDTextBox = new System.Windows.Forms.TextBox();
+            this.titleTextBox = new System.Windows.Forms.TextBox();
+            this.authorTextBox = new System.Windows.Forms.TextBox();
+            this.publisherTextBox = new System.Windows.Forms.TextBox();
+            label14 = new System.Windows.Forms.Label();
+            lblPassword = new System.Windows.Forms.Label();
+            lblEmail = new System.Windows.Forms.Label();
+            lblName = new System.Windows.Forms.Label();
+            lblJob = new System.Windows.Forms.Label();
+            authorLabel = new System.Windows.Forms.Label();
+            publisherLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productBindingSource)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(217, 180);
-            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(73, 12);
-            this.label14.TabIndex = 35;
-            this.label14.Text = "Product details";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(211, 92);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(41, 12);
-            this.label13.TabIndex = 33;
-            this.label13.Text = "Product";
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 12;
-            this.listBox1.Location = new System.Drawing.Point(211, 118);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(81, 16);
-            this.listBox1.TabIndex = 32;
             // 
             // label12
             // 
@@ -103,111 +95,11 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(211, 11);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(187, 22);
             this.textBox1.TabIndex = 30;
             this.textBox1.Text = "Search here";
-            // 
-            // label15
-            // 
-            this.label15.Location = new System.Drawing.Point(217, 216);
-            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(409, 33);
-            this.label15.TabIndex = 36;
-            this.label15.Text = "Product Name:";
-            this.label15.AutoSizeChanged += new System.EventHandler(this.label15_AutoSizeChanged);
-            // 
-            // label16
-            // 
-            this.label16.Location = new System.Drawing.Point(217, 250);
-            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(409, 33);
-            this.label16.TabIndex = 37;
-            this.label16.Text = "ProductID:";
-            // 
-            // label17
-            // 
-            this.label17.Location = new System.Drawing.Point(217, 281);
-            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(409, 33);
-            this.label17.TabIndex = 38;
-            this.label17.Text = "Required material:";
-            // 
-            // label18
-            // 
-            this.label18.Location = new System.Drawing.Point(217, 314);
-            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(409, 33);
-            this.label18.TabIndex = 39;
-            this.label18.Text = "Amount:";
-            // 
-            // label19
-            // 
-            this.label19.Location = new System.Drawing.Point(217, 348);
-            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(409, 33);
-            this.label19.TabIndex = 40;
-            this.label19.Text = "Weight:";
-            // 
-            // label20
-            // 
-            this.label20.Location = new System.Drawing.Point(217, 381);
-            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(409, 33);
-            this.label20.TabIndex = 41;
-            this.label20.Text = "Height:";
-            // 
-            // label21
-            // 
-            this.label21.Location = new System.Drawing.Point(217, 413);
-            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(409, 33);
-            this.label21.TabIndex = 42;
-            this.label21.Text = "Place of reproduction:";
-            // 
-            // label22
-            // 
-            this.label22.Location = new System.Drawing.Point(217, 446);
-            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(409, 33);
-            this.label22.TabIndex = 43;
-            this.label22.Text = "Supply:";
-            // 
-            // label23
-            // 
-            this.label23.Location = new System.Drawing.Point(217, 480);
-            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(409, 33);
-            this.label23.TabIndex = 44;
-            this.label23.Text = "Shipping option:";
-            // 
-            // label24
-            // 
-            this.label24.Location = new System.Drawing.Point(217, 513);
-            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(409, 33);
-            this.label24.TabIndex = 45;
-            this.label24.Text = "Shipping date:";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(801, 118);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(248, 229);
-            this.pictureBox2.TabIndex = 46;
-            this.pictureBox2.TabStop = false;
             // 
             // label11
             // 
@@ -323,17 +215,255 @@
             // 
             this.pictureBox1.Image = global::Smile___Sunshine_Toy_Co__Ltd_CCMS.Properties.Resources.png1;
             this.pictureBox1.Location = new System.Drawing.Point(8, 11);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(199, 593);
+            this.pictureBox1.Size = new System.Drawing.Size(199, 132);
             this.pictureBox1.TabIndex = 54;
             this.pictureBox1.TabStop = false;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.productIdDataGridViewTextBoxColumn,
+            this.productNameDataGridViewTextBoxColumn,
+            this.columnDataGridViewTextBoxColumn,
+            this.departmnetIdDataGridViewTextBoxColumn,
+            this.productCostDataGridViewTextBoxColumn,
+            this.productDescriptionDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.productBindingSource;
+            this.dataGridView1.Location = new System.Drawing.Point(213, 309);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(1105, 200);
+            this.dataGridView1.TabIndex = 77;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Location = new System.Drawing.Point(986, 600);
+            label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label14.Name = "label14";
+            label14.Size = new System.Drawing.Size(56, 12);
+            label14.TabIndex = 112;
+            label14.Text = "Product ID";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(1050, 590);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(148, 22);
+            this.textBox7.TabIndex = 111;
+            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(1205, 581);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(91, 37);
+            this.btnDelete.TabIndex = 110;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnadd
+            // 
+            this.btnadd.Location = new System.Drawing.Point(1325, 581);
+            this.btnadd.Name = "btnadd";
+            this.btnadd.Size = new System.Drawing.Size(108, 37);
+            this.btnadd.TabIndex = 109;
+            this.btnadd.Text = "Add";
+            this.btnadd.UseVisualStyleBackColor = true;
+            this.btnadd.Click += new System.EventHandler(this.btnadd_Click);
+            // 
+            // database1DataSet1
+            // 
+            this.database1DataSet1.DataSetName = "Database1DataSet1";
+            this.database1DataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // productBindingSource
+            // 
+            this.productBindingSource.DataMember = "Product";
+            this.productBindingSource.DataSource = this.database1DataSet1;
+            // 
+            // productTableAdapter
+            // 
+            this.productTableAdapter.ClearBeforeFill = true;
+            // 
+            // productIdDataGridViewTextBoxColumn
+            // 
+            this.productIdDataGridViewTextBoxColumn.DataPropertyName = "Product_Id";
+            this.productIdDataGridViewTextBoxColumn.HeaderText = "Product_Id";
+            this.productIdDataGridViewTextBoxColumn.Name = "productIdDataGridViewTextBoxColumn";
+            // 
+            // productNameDataGridViewTextBoxColumn
+            // 
+            this.productNameDataGridViewTextBoxColumn.DataPropertyName = "Product_Name";
+            this.productNameDataGridViewTextBoxColumn.HeaderText = "Product_Name";
+            this.productNameDataGridViewTextBoxColumn.Name = "productNameDataGridViewTextBoxColumn";
+            // 
+            // columnDataGridViewTextBoxColumn
+            // 
+            this.columnDataGridViewTextBoxColumn.DataPropertyName = "Column";
+            this.columnDataGridViewTextBoxColumn.HeaderText = "Column";
+            this.columnDataGridViewTextBoxColumn.Name = "columnDataGridViewTextBoxColumn";
+            // 
+            // departmnetIdDataGridViewTextBoxColumn
+            // 
+            this.departmnetIdDataGridViewTextBoxColumn.DataPropertyName = "Departmnet_Id";
+            this.departmnetIdDataGridViewTextBoxColumn.HeaderText = "Departmnet_Id";
+            this.departmnetIdDataGridViewTextBoxColumn.Name = "departmnetIdDataGridViewTextBoxColumn";
+            // 
+            // productCostDataGridViewTextBoxColumn
+            // 
+            this.productCostDataGridViewTextBoxColumn.DataPropertyName = "Product_Cost";
+            this.productCostDataGridViewTextBoxColumn.HeaderText = "Product_Cost";
+            this.productCostDataGridViewTextBoxColumn.Name = "productCostDataGridViewTextBoxColumn";
+            // 
+            // productDescriptionDataGridViewTextBoxColumn
+            // 
+            this.productDescriptionDataGridViewTextBoxColumn.DataPropertyName = "Product_Description";
+            this.productDescriptionDataGridViewTextBoxColumn.HeaderText = "Product_Description";
+            this.productDescriptionDataGridViewTextBoxColumn.Name = "productDescriptionDataGridViewTextBoxColumn";
+            // 
+            // lblPassword
+            // 
+            lblPassword.AutoSize = true;
+            lblPassword.Location = new System.Drawing.Point(222, 231);
+            lblPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            lblPassword.Name = "lblPassword";
+            lblPassword.Size = new System.Drawing.Size(68, 12);
+            lblPassword.TabIndex = 121;
+            lblPassword.Text = "Product_Cost";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(382, 227);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(148, 22);
+            this.textBox2.TabIndex = 122;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // lblEmail
+            // 
+            lblEmail.AutoSize = true;
+            lblEmail.Location = new System.Drawing.Point(222, 267);
+            lblEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            lblEmail.Name = "lblEmail";
+            lblEmail.Size = new System.Drawing.Size(103, 12);
+            lblEmail.TabIndex = 123;
+            lblEmail.Text = "Product_Descripttion";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(382, 263);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(148, 22);
+            this.textBox3.TabIndex = 124;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            // 
+            // lblName
+            // 
+            lblName.AutoSize = true;
+            lblName.Location = new System.Drawing.Point(222, 89);
+            lblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            lblName.Name = "lblName";
+            lblName.Size = new System.Drawing.Size(57, 12);
+            lblName.TabIndex = 113;
+            lblName.Text = "Product_Id";
+            // 
+            // bookIDTextBox
+            // 
+            this.bookIDTextBox.Location = new System.Drawing.Point(382, 86);
+            this.bookIDTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.bookIDTextBox.Name = "bookIDTextBox";
+            this.bookIDTextBox.Size = new System.Drawing.Size(148, 22);
+            this.bookIDTextBox.TabIndex = 114;
+            this.bookIDTextBox.TextChanged += new System.EventHandler(this.bookIDTextBox_TextChanged);
+            // 
+            // lblJob
+            // 
+            lblJob.AutoSize = true;
+            lblJob.Location = new System.Drawing.Point(222, 124);
+            lblJob.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            lblJob.Name = "lblJob";
+            lblJob.Size = new System.Drawing.Size(74, 12);
+            lblJob.TabIndex = 115;
+            lblJob.Text = "Product_Name";
+            // 
+            // titleTextBox
+            // 
+            this.titleTextBox.Location = new System.Drawing.Point(382, 121);
+            this.titleTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.titleTextBox.Name = "titleTextBox";
+            this.titleTextBox.Size = new System.Drawing.Size(148, 22);
+            this.titleTextBox.TabIndex = 116;
+            this.titleTextBox.TextChanged += new System.EventHandler(this.titleTextBox_TextChanged);
+            // 
+            // authorLabel
+            // 
+            authorLabel.AutoSize = true;
+            authorLabel.Location = new System.Drawing.Point(222, 161);
+            authorLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            authorLabel.Name = "authorLabel";
+            authorLabel.Size = new System.Drawing.Size(46, 12);
+            authorLabel.TabIndex = 117;
+            authorLabel.Text = "Column:";
+            // 
+            // authorTextBox
+            // 
+            this.authorTextBox.Location = new System.Drawing.Point(382, 157);
+            this.authorTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.authorTextBox.Name = "authorTextBox";
+            this.authorTextBox.Size = new System.Drawing.Size(148, 22);
+            this.authorTextBox.TabIndex = 118;
+            this.authorTextBox.TextChanged += new System.EventHandler(this.authorTextBox_TextChanged);
+            // 
+            // publisherLabel
+            // 
+            publisherLabel.AutoSize = true;
+            publisherLabel.Location = new System.Drawing.Point(222, 194);
+            publisherLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            publisherLabel.Name = "publisherLabel";
+            publisherLabel.Size = new System.Drawing.Size(75, 12);
+            publisherLabel.TabIndex = 119;
+            publisherLabel.Text = "Depertment_Id";
+            // 
+            // publisherTextBox
+            // 
+            this.publisherTextBox.Location = new System.Drawing.Point(382, 190);
+            this.publisherTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.publisherTextBox.Name = "publisherTextBox";
+            this.publisherTextBox.Size = new System.Drawing.Size(148, 22);
+            this.publisherTextBox.TabIndex = 120;
+            this.publisherTextBox.TextChanged += new System.EventHandler(this.publisherTextBox_TextChanged);
             // 
             // Product2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1068, 625);
+            this.ClientSize = new System.Drawing.Size(1443, 625);
+            this.Controls.Add(lblPassword);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(lblEmail);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(lblName);
+            this.Controls.Add(this.bookIDTextBox);
+            this.Controls.Add(lblJob);
+            this.Controls.Add(this.titleTextBox);
+            this.Controls.Add(authorLabel);
+            this.Controls.Add(this.authorTextBox);
+            this.Controls.Add(publisherLabel);
+            this.Controls.Add(this.publisherTextBox);
+            this.Controls.Add(label14);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnadd);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -346,51 +476,24 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.textBox1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Product2";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
@@ -403,5 +506,24 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnadd;
+        private Database1DataSet1 database1DataSet1;
+        private System.Windows.Forms.BindingSource productBindingSource;
+        private Database1DataSet1TableAdapters.ProductTableAdapter productTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn productIdDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn productNameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn columnDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn departmnetIdDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn productCostDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn productDescriptionDataGridViewTextBoxColumn;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox bookIDTextBox;
+        private System.Windows.Forms.TextBox titleTextBox;
+        private System.Windows.Forms.TextBox authorTextBox;
+        private System.Windows.Forms.TextBox publisherTextBox;
     }
 }
