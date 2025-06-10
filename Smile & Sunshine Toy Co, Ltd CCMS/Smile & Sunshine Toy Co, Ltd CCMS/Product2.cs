@@ -108,8 +108,11 @@ namespace Smile___Sunshine_Toy_Co__Ltd_CCMS
                 {
                     MessageBox.Show("Cannot be empty! ");
                 }
-                UpdateGrid("Delete from Product where Product_Id = \"" + textBox7.Text + "\";");
-                UpdateGrid("Select * from Product");
+                else
+                {
+                    UpdateGrid("Delete from Product where Product_Id = \"" + textBox7.Text + "\";");
+                    UpdateGrid("Select * from Product");
+                }
             }
             catch (Exception E)
             {
@@ -118,6 +121,28 @@ namespace Smile___Sunshine_Toy_Co__Ltd_CCMS
         }
 
         private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Companies1 frm = new Companies1();
+            frm.ShowDialog();
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+            Employee1 frm = new Employee1();
+            frm.ShowDialog();
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,16 +11,17 @@ using System.Data.OleDb;
 
 namespace Smile___Sunshine_Toy_Co__Ltd_CCMS
 {
-    public partial class Employee1 : Form
+    public partial class Companies1 : Form
     {
 
         private DataTable dt = new DataTable();
         private string connStr = "Provider=Microsoft.ACE.OLEDB.12.0;"
                         + "Data Source=Database1.accdb";
-        public Employee1()
+        public Companies1()
         {
             InitializeComponent();
         }
+
 
         private void UpdateGrid(string sqlStr)
         {
@@ -33,10 +33,26 @@ namespace Smile___Sunshine_Toy_Co__Ltd_CCMS
             dataGridView1.DataSource = dt;
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void Companies_Load(object sender, EventArgs e)
         {
-            Companies1 frm = new Companies1();
-            frm.ShowDialog();
+            // TODO: 這行程式碼會將資料載入 'database1DataSet1.Material_Requirement_Form' 資料表。您可以視需要進行移動或移除。
+            this.material_Requirement_FormTableAdapter.Fill(this.database1DataSet1.Material_Requirement_Form);
+            // TODO: 這行程式碼會將資料載入 'database1DataSet1.Supplier' 資料表。您可以視需要進行移動或移除。
+            this.supplierTableAdapter.Fill(this.database1DataSet1.Supplier);
+
+            dataGridView1.ReadOnly = true;
+
+            if (lblText.Text == "1")
+            {
+                bt1.Visible = false;
+            }
+            UpdateGrid("Select * from Material_Requirement_Form");
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
 
         private void label6_Click(object sender, EventArgs e)
@@ -45,22 +61,12 @@ namespace Smile___Sunshine_Toy_Co__Ltd_CCMS
             frm.ShowDialog();
         }
 
-        private void Employee1_Load(object sender, EventArgs e)
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
-            // TODO: 這行程式碼會將資料載入 'database1DataSet1.Department' 資料表。您可以視需要進行移動或移除。
-            this.departmentTableAdapter.Fill(this.database1DataSet1.Department);
-            // TODO: 這行程式碼會將資料載入 'database1DataSet1.Staff' 資料表。您可以視需要進行移動或移除。
-            this.staffTableAdapter.Fill(this.database1DataSet1.Staff);
-            dataGridView1.ReadOnly = true;
-            if (lblText.Text == "1")
-            {
-                bt1.Visible = false;
-            }
-            UpdateGrid("Select * from Staff");
 
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void btnFirst_Click(object sender, EventArgs e)
         {
 
         }
@@ -72,7 +78,7 @@ namespace Smile___Sunshine_Toy_Co__Ltd_CCMS
                 int a = int.Parse(lblText.Text);
                 a--;
                 lblText.Text = a.ToString();
-                lbl1.Text = "Showing the staff of " + lblText.Text;
+                lbl1.Text = "Showing the Material_Requirement_Form of " + lblText.Text;
             }
             if (lblText.Text == "1")
             {
@@ -90,18 +96,29 @@ namespace Smile___Sunshine_Toy_Co__Ltd_CCMS
             {
                 bt1.Visible = true;
             }
-            lbl1.Text = "Showing the staff of " + lblText.Text;
+            lbl1.Text = "Showing the Material_Requirement_Form of " + lblText.Text;
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            Employee2 frm = new Employee2();
+            Companies2 frm = new Companies2();
             frm.ShowDialog();
+        }
+
+        private void lbl1_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void lblText_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+            Employee1 frm = new Employee1();
+            frm.ShowDialog();
         }
     }
 }

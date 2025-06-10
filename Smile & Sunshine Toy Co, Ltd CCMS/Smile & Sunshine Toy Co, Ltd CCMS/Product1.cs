@@ -16,6 +16,7 @@ namespace Smile___Sunshine_Toy_Co__Ltd_CCMS
         private DataTable dt = new DataTable();
         private string connStr = "Provider=Microsoft.ACE.OLEDB.12.0;"
                         + "Data Source=Database1.accdb";
+
         private void UpdateGrid(string sqlStr)
         {
             OleDbDataAdapter dataAdapter =
@@ -32,8 +33,6 @@ namespace Smile___Sunshine_Toy_Co__Ltd_CCMS
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            // TODO: 這行程式碼會將資料載入 'database1DataSet1.Product' 資料表。您可以視需要進行移動或移除。
-            this.productTableAdapter.Fill(this.database1DataSet1.Product);
             dataGridView1.ReadOnly = true;
             if (lblText.Text == "1")
             {
@@ -79,7 +78,7 @@ namespace Smile___Sunshine_Toy_Co__Ltd_CCMS
 
         private void label4_Click(object sender, EventArgs e)
         {
-            Companies frm = new Companies();
+            Companies1 frm = new Companies1();
             frm.ShowDialog();
         }
 
@@ -96,7 +95,7 @@ namespace Smile___Sunshine_Toy_Co__Ltd_CCMS
                 int a = int.Parse(lblText.Text);
                 a--;
                 lblText.Text = a.ToString();
-                lbl1.Text = "Showing the staff of " + lblText.Text;
+                lbl1.Text = "Showing the product of " + lblText.Text;
             }
             if (lblText.Text == "1")
             {
@@ -119,13 +118,98 @@ namespace Smile___Sunshine_Toy_Co__Ltd_CCMS
             {
                 bt1.Visible = true;
             }
-            lbl1.Text = "Showing the staff of " + lblText.Text;
+            lbl1.Text = "Showing the product of " + lblText.Text;
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
             Product2 frm = new Product2();
             frm.ShowDialog();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnFirst_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLast_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
