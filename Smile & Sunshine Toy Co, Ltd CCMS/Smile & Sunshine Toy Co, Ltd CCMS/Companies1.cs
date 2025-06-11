@@ -120,5 +120,23 @@ namespace Smile___Sunshine_Toy_Co__Ltd_CCMS
             Employee1 frm = new Employee1();
             frm.ShowDialog();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Task frm = new Task();
+            frm.ShowDialog();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Home frm = new Home();
+            frm.ShowDialog();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Leads frm = new Leads();
+            frm.ShowDialog();
+        }
     }
 }
