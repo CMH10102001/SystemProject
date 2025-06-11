@@ -16,7 +16,7 @@ namespace Smile___Sunshine_Toy_Co__Ltd_CCMS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Home());
+            Application.Run(new Employee1());
         }
     }
 }
