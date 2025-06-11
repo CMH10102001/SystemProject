@@ -1,0 +1,24 @@
+C:\Users\240384427\source\repos\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\bin\Debug\Smile & Sunshine Toy Co, Ltd CCMS.exe.config
+C:\Users\240384427\source\repos\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\bin\Debug\Smile & Sunshine Toy Co, Ltd CCMS.exe
+C:\Users\240384427\source\repos\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\bin\Debug\Smile & Sunshine Toy Co, Ltd CCMS.pdb
+C:\Users\240384427\source\repos\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\obj\Debug\Smile & Sunshine Toy Co, Ltd CCMS.csproj.AssemblyReference.cache
+C:\Users\240384427\source\repos\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\obj\Debug\Smile___Sunshine_Toy_Co__Ltd_CCMS.Form1.resources
+C:\Users\240384427\source\repos\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\obj\Debug\Smile___Sunshine_Toy_Co__Ltd_CCMS.Properties.Resources.resources
+C:\Users\240384427\source\repos\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\obj\Debug\Smile & Sunshine Toy Co, Ltd CCMS.csproj.GenerateResource.cache
+C:\Users\240384427\source\repos\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\obj\Debug\Smile & Sunshine Toy Co, Ltd CCMS.csproj.CoreCompileInputs.cache
+C:\Users\240384427\source\repos\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\obj\Debug\Smile & Sunshine Toy Co, Ltd CCMS.exe
+C:\Users\240384427\source\repos\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\obj\Debug\Smile & Sunshine Toy Co, Ltd CCMS.pdb
+C:\Users\KK4000\OneDrive\Desktop\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\obj\Debug\Smile & Sunshine Toy Co, Ltd CCMS.csproj.AssemblyReference.cache
+C:\Users\KK4000\OneDrive\Desktop\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\obj\Debug\Smile & Sunshine Toy Co, Ltd CCMS.exe
+C:\Users\KK4000\OneDrive\Desktop\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\obj\Debug\Smile & Sunshine Toy Co, Ltd CCMS.pdb
+C:\Users\KK4000\OneDrive\Desktop\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\bin\Debug\Smile & Sunshine Toy Co, Ltd CCMS.exe.config
+C:\Users\KK4000\OneDrive\Desktop\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\bin\Debug\Smile & Sunshine Toy Co, Ltd CCMS.exe
+C:\Users\KK4000\OneDrive\Desktop\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\bin\Debug\Smile & Sunshine Toy Co, Ltd CCMS.pdb
+C:\Users\KK4000\OneDrive\Desktop\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\obj\Debug\Smile___Sunshine_Toy_Co__Ltd_CCMS.Properties.Resources.resources
+C:\Users\KK4000\OneDrive\Desktop\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\obj\Debug\Smile & Sunshine Toy Co, Ltd CCMS.csproj.GenerateResource.cache
+C:\Users\KK4000\OneDrive\Desktop\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\obj\Debug\Smile & Sunshine Toy Co, Ltd CCMS.csproj.CoreCompileInputs.cache
+C:\Users\KK4000\OneDrive\Desktop\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\obj\Debug\Smile___Sunshine_Toy_Co__Ltd_CCMS.Product1.resources
+C:\Users\KK4000\OneDrive\Desktop\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\obj\Debug\Smile___Sunshine_Toy_Co__Ltd_CCMS.Product2.resources
+C:\Users\KK4000\OneDrive\Desktop\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\obj\Debug\Smile___Sunshine_Toy_Co__Ltd_CCMS.Employee2.resources
+C:\Users\KK4000\OneDrive\Desktop\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\obj\Debug\Smile___Sunshine_Toy_Co__Ltd_CCMS.Comanies.resources
+C:\Users\KK4000\OneDrive\Desktop\Smile & Sunshine Toy Co, Ltd CCMS\Smile & Sunshine Toy Co, Ltd CCMS\obj\Debug\Smile___Sunshine_Toy_Co__Ltd_CCMS.Employee1.resources
